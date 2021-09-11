@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import { Button } from '@material-ui/core';
+import queryString from 'query-string';
+import React, { useEffect, useState } from 'react';
+import { useHistory, useLocation, useRouteMatch } from 'react-router-dom/cjs/react-router-dom.min';
 import TodoForm from '../../Components/TodoForm';
 import TodoList from '../../Components/TodoList';
-import { Button } from '@material-ui/core';
 import './style.scss';
-import { useHistory, useLocation, useRouteMatch } from 'react-router-dom/cjs/react-router-dom.min';
-import queryString from 'query-string';
 ListPage.propTypes = {};
 
 function ListPage(props) {

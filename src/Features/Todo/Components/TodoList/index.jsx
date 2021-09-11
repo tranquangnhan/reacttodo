@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './style.scss';
-import classnames from 'classnames';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
+import classnames from 'classnames';
+import PropTypes from 'prop-types';
+import React from 'react';
+import './style.scss';
 
 TodoList.propTypes = {
      todoList: PropTypes.array,
