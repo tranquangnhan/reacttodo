@@ -1,0 +1,25 @@
+.box_todo{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    box-shadow: 0 0 10px #ccc;
+    padding: 1rem;
+    &>h3{
+        color: pink;
+        font-size: 20pt;
+        text-align: center;
+        clear: both;
+    }
+    &>ul{
+        padding:0;
+    }
+    &>ul>li{
+        color: black;
+    }
+    .ml-2{
+        margin-left: 20px;
+    }
+    .clear-todo{
+        float: right;
+    }   
+}

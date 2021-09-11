@@ -1,0 +1,20 @@
+ul,li{
+    list-style: none;
+}
+.todo-list{
+    &>li{
+        cursor: pointer;
+        color: black;
+        height: 50px;
+    }
+    
+    .todo-item.completed{
+        color:#ccc;
+        font-style: italic;
+        text-decoration: line-through;
+    }
+   
+     .todo-item{
+        color:black;
+    }
+}
