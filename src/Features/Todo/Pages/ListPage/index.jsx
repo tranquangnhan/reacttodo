@@ -95,7 +95,7 @@ function ListPage(props) {
 
   return (
     <div className="box_todo">
-      <h3>What todo ?</h3>
+      <h3>What todo gì vậy ?</h3>
 
       <div>
         <Button variant="contained" className="clear-todo" onClick={clearTodo}>
